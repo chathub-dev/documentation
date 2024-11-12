@@ -35,6 +35,10 @@
     {
       "group": "Membership",
       "pages": ["membership/comparison", "membership/subscription", "membership/lifetime"]
+    },
+    {
+      "group": "ChatHub AI Service",
+      "pages": ["cloud/index", "cloud/image-generation"]
     }
   ],
   "footerSocials": {},
