@@ -26,7 +26,12 @@
     "name": "Home",
     "url": "https://chathub.gg"
   },
-  "tabs": [],
+  "tabs": [
+    {
+      "name": "Changelog",
+      "url": "changelog"
+    }
+  ],
   "anchors": [],
   "navigation": [
     {
@@ -70,6 +75,10 @@
         "miscellaneous/desktop-app",
         "miscellaneous/update-manually"
       ]
+    },
+    {
+      "group": "Changelog",
+      "pages": ["changelog/overview"]
     }
   ],
   "footerSocials": {},
