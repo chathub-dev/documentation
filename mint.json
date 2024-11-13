@@ -39,6 +39,36 @@
     {
       "group": "ChatHub AI Service",
       "pages": ["cloud/index", "cloud/image-generation"]
+    },
+    {
+      "group": "Premium Features",
+      "pages": [
+        "premium-features/code-preview",
+        "premium-features/file-upload",
+        "premium-features/web-access",
+        "premium-features/summarize-chat",
+        "premium-features/side-panel"
+      ]
+    },
+    {
+      "group": "Custom Chatbots",
+      "pages": [
+        "custom-chatbots/index",
+        "custom-chatbots/openai",
+        "custom-chatbots/openrouter",
+        "custom-chatbots/ollama",
+        "custom-chatbots/together",
+        "custom-chatbots/xinference"
+      ]
+    },
+    {
+      "group": "Miscellaneous",
+      "pages": [
+        "miscellaneous/faq",
+        "miscellaneous/troubleshooting",
+        "miscellaneous/desktop-app",
+        "miscellaneous/update-manually"
+      ]
     }
   ],
   "footerSocials": {},
