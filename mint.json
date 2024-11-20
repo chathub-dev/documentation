@@ -69,6 +69,7 @@
         "custom-chatbots/openai",
         "custom-chatbots/openrouter",
         "custom-chatbots/ollama",
+        "custom-chatbots/straico",
         "custom-chatbots/together",
         "custom-chatbots/xinference"
       ]
