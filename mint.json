@@ -54,13 +54,17 @@
     },
     {
       "group": "Features",
-      "pages": ["features/chat-simultaneously", "features/prompt-library", "features/chat-history"]
+      "pages": [
+        "features/chat-simultaneously",
+        "features/image-upload",
+        "features/prompt-library",
+        "features/chat-history"
+      ]
     },
     {
       "group": "Premium Features",
       "pages": [
         "premium-features/code-preview",
-        "premium-features/image-upload",
         "premium-features/file-upload",
         "premium-features/web-access",
         "premium-features/summarize-chat",
