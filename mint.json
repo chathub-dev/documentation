@@ -53,9 +53,14 @@
       "pages": ["cloud/index", "cloud/image-generation"]
     },
     {
+      "group": "Features",
+      "pages": ["features/chat-simultaneously", "features/prompt-library", "features/chat-history"]
+    },
+    {
       "group": "Premium Features",
       "pages": [
         "premium-features/code-preview",
+        "premium-features/image-upload",
         "premium-features/file-upload",
         "premium-features/web-access",
         "premium-features/summarize-chat",
@@ -77,6 +82,7 @@
     {
       "group": "Miscellaneous",
       "pages": [
+        "miscellaneous/contact",
         "miscellaneous/faq",
         "miscellaneous/troubleshooting",
         "miscellaneous/desktop-app",
