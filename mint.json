@@ -45,6 +45,16 @@
       "pages": ["introduction"]
     },
     {
+      "group": "Use Cases",
+      "pages": [
+        "use-cases/educators",
+        "use-cases/researchers",
+        "use-cases/content-creators",
+        "use-cases/hr",
+        "use-cases/students"
+      ]
+    },
+    {
       "group": "Membership",
       "pages": ["membership/comparison", "membership/subscription", "membership/lifetime"]
     },
