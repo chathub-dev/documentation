@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Learning Center - ChatHub",
+  "name": "ChatHub Learning Center",
   "logo": {
     "dark": "/logo/logo.png",
     "light": "/logo/logo.png"
