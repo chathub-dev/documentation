@@ -1,15 +1,15 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "ChatHub",
+  "name": "Learning Center - ChatHub",
   "logo": {
     "dark": "/logo/logo.png",
     "light": "/logo/logo.png"
   },
   "favicon": "/logo/logo.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#76afcc",
+    "light": "#76afcc",
+    "dark": "#449ac7",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
@@ -29,7 +29,7 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Home",
+    "name": "Get Started",
     "url": "https://chathub.gg"
   },
   "tabs": [
@@ -108,10 +108,19 @@
       "pages": ["changelog/overview"]
     }
   ],
-  "footerSocials": {},
+  "footer": {
+    "socials": {
+      "website": "https://chathub.gg",
+      "x": "https://x.com/chathub_app",
+      "discord": "https://discord.gg/sfxCcTjV98"
+    }
+  },
   "analytics": {
     "plausible": {
       "domain": "doc.chathub.gg"
     }
+  },
+  "seo": {
+    "indexHiddenPages": true
   }
 }
