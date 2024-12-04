@@ -43,7 +43,7 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["introduction"]
+      "pages": ["introduction", "overview/web-app", "overview/chrome-extension", "overview/ios-android-app"]
     },
     {
       "group": "Use Cases",
