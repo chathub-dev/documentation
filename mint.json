@@ -22,14 +22,9 @@
     { "name": "Português", "locale": "pt" },
     { "name": "日本語", "locale": "jp" }
   ],
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "https://chathub.gg/support"
-    }
-  ],
+  "topbarLinks": [],
   "topbarCtaButton": {
-    "name": "Get Started",
+    "name": "Go to chathub.gg",
     "url": "https://chathub.gg"
   },
   "tabs": [
@@ -38,7 +33,13 @@
       "url": "changelog"
     }
   ],
-  "anchors": [],
+  "anchors": [
+    {
+      "name": "Support",
+      "icon": "headset",
+      "url": "https://chathub.gg/support"
+    }
+  ],
   "navigation": [
     {
       "group": "Overview",
