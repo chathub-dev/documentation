@@ -118,7 +118,8 @@
   },
   "analytics": {
     "plausible": {
-      "domain": "doc.chathub.gg"
+      "domain": "doc.chathub.gg",
+      "server": "plausible.midway.run"
     }
   },
   "seo": {
