@@ -61,7 +61,19 @@
         "premium-features/web-access",
         "premium-features/summarize-chat",
         "premium-features/code-preview",
-        "premium-features/side-panel"
+        "premium-features/side-panel",
+        {
+          "group": "Custom Chatbots",
+          "pages": [
+            "custom-chatbots/index",
+            "custom-chatbots/openai",
+            "custom-chatbots/openrouter",
+            "custom-chatbots/ollama",
+            "custom-chatbots/straico",
+            "custom-chatbots/together",
+            "custom-chatbots/xinference"
+          ]
+        }
       ]
     },
     {
@@ -71,18 +83,6 @@
     {
       "group": "ChatHub AI Service",
       "pages": ["cloud/index", "cloud/image-generation"]
-    },
-    {
-      "group": "Custom Chatbots",
-      "pages": [
-        "custom-chatbots/index",
-        "custom-chatbots/openai",
-        "custom-chatbots/openrouter",
-        "custom-chatbots/ollama",
-        "custom-chatbots/straico",
-        "custom-chatbots/together",
-        "custom-chatbots/xinference"
-      ]
     },
     {
       "group": "Use Cases",
