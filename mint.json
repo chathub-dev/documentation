@@ -51,7 +51,8 @@
         "features/chat-simultaneously",
         "features/image-upload",
         "features/prompt-library",
-        "features/chat-history"
+        "features/chat-history",
+        "features/custom-instructions"
       ]
     },
     {
