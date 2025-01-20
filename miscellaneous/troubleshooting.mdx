@@ -6,12 +6,15 @@ title: 'Troubleshooting'
 
 This error message indicates that your ChatHub license key has been activated on the maximum number of devices (browsers) permitted by your license. ChatHub licenses have varying activation limits, which are specified before purchase.
 
+Due to browser extension security restrictions that prevent access to device hardware information, ChatHub counts activations based on the number of "activation" operations performed. This means that certain scenarios will count as multiple activations, even if they occur on the same physical device. The following situations will each count as two separate activations:
+
+* Activating ChatHub in Chrome, and then activating it again in Edge on the same computer.
+* Activating ChatHub in Chrome, then reactivating after uninstalling and reinstalling Chrome.
+* Activating ChatHub in Chrome, then reactivating after uninstalling and reinstalling the ChatHub extension.
+
 You have two options to resolve this issue:
 
 <AccordionGroup>
-  <Accordion title="Upgrade Your License">
-		Upgrade your license to increase the number of devices you can activate. You can do this by contacting [ChatHub support](/miscellaneous/contact) to pay the price difference.
-	</Accordion>
 	<Accordion title="Use the License Manager Tool">
 	<Steps>
 		<Step title="Open the License Manager tool">
@@ -27,6 +30,9 @@ You have two options to resolve this issue:
 			Once a slot is available, you can activate your current device in the ChatHub browser extension.
 		</Step>
 	</Steps>
+	</Accordion>
+	 <Accordion title="Upgrade Your License">
+		Upgrade your license to increase the number of devices you can activate. You can do this by contacting [ChatHub support](/miscellaneous/contact) to pay the price difference.
 	</Accordion>
 </AccordionGroup>
 
