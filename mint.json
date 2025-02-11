@@ -20,7 +20,8 @@
     { "name": "English", "locale": "en" },
     { "name": "Español", "locale": "es" },
     { "name": "Português", "locale": "pt" },
-    { "name": "日本語", "locale": "jp" }
+    { "name": "日本語", "locale": "jp" },
+    { "name": "中文", "locale": "cn" }
   ],
   "topbarLinks": [],
   "topbarCtaButton": {
