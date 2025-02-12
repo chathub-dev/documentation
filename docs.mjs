@@ -1,3 +1,7 @@
+/**
+ * This file generates the docs.json file.
+ */
+
 import fs from 'fs'
 
 const languages = ['en', 'es', 'pt', 'jp', 'cn']
