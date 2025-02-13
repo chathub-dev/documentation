@@ -111,7 +111,7 @@
         "language": "es",
         "tabs": [
           {
-            "tab": "Documentation",
+            "tab": "Documentación",
             "groups": [
               {
                 "group": "Overview",
@@ -192,10 +192,10 @@
             ]
           },
           {
-            "tab": "Changelog",
+            "tab": "Registro de cambios",
             "groups": [
               {
-                "group": "Changelog",
+                "group": "Registro de cambios",
                 "pages": [
                   "changelog/overview"
                 ]
@@ -208,6 +208,103 @@
         "language": "pt",
         "tabs": [
           {
+            "tab": "Documentação",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "introduction",
+                  "overview/web-app",
+                  "overview/chrome-extension",
+                  "overview/ios-android-app"
+                ]
+              },
+              {
+                "group": "Features",
+                "pages": [
+                  "features/chat-simultaneously",
+                  "features/image-upload",
+                  "features/prompt-library",
+                  "features/chat-history",
+                  "features/custom-instructions"
+                ]
+              },
+              {
+                "group": "Premium Features",
+                "pages": [
+                  "premium-features/file-upload",
+                  "premium-features/web-access",
+                  "premium-features/summarize-chat",
+                  "premium-features/code-preview",
+                  "premium-features/side-panel",
+                  {
+                    "group": "Custom Chatbots",
+                    "pages": [
+                      "custom-chatbots/index",
+                      "custom-chatbots/openai",
+                      "custom-chatbots/openrouter",
+                      "custom-chatbots/ollama",
+                      "custom-chatbots/straico",
+                      "custom-chatbots/together",
+                      "custom-chatbots/xinference"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Membership",
+                "pages": [
+                  "membership/comparison",
+                  "membership/subscription",
+                  "membership/lifetime"
+                ]
+              },
+              {
+                "group": "ChatHub AI Service",
+                "pages": [
+                  "cloud/index",
+                  "cloud/image-generation"
+                ]
+              },
+              {
+                "group": "Use Cases",
+                "pages": [
+                  "use-cases/educators",
+                  "use-cases/researchers",
+                  "use-cases/content-creators",
+                  "use-cases/hr",
+                  "use-cases/students"
+                ]
+              },
+              {
+                "group": "Miscellaneous",
+                "pages": [
+                  "miscellaneous/contact",
+                  "miscellaneous/faq",
+                  "miscellaneous/troubleshooting",
+                  "miscellaneous/desktop-app",
+                  "miscellaneous/update-manually"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Registro de alterações",
+            "groups": [
+              {
+                "group": "Registro de alterações",
+                "pages": [
+                  "changelog/overview"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "fr",
+        "tabs": [
+          {
             "tab": "Documentation",
             "groups": [
               {
@@ -289,10 +386,10 @@
             ]
           },
           {
-            "tab": "Changelog",
+            "tab": "Journal des modifications",
             "groups": [
               {
-                "group": "Changelog",
+                "group": "Journal des modifications",
                 "pages": [
                   "changelog/overview"
                 ]
@@ -305,7 +402,7 @@
         "language": "jp",
         "tabs": [
           {
-            "tab": "Documentation",
+            "tab": "ドキュメント",
             "groups": [
               {
                 "group": "Overview",
@@ -386,10 +483,10 @@
             ]
           },
           {
-            "tab": "Changelog",
+            "tab": "更新履歴",
             "groups": [
               {
-                "group": "Changelog",
+                "group": "更新履歴",
                 "pages": [
                   "changelog/overview"
                 ]
@@ -402,7 +499,7 @@
         "language": "cn",
         "tabs": [
           {
-            "tab": "Documentation",
+            "tab": "文档",
             "groups": [
               {
                 "group": "Overview",
@@ -448,7 +545,7 @@
               {
                 "group": "Membership",
                 "pages": [
-                  "membership/comparison",
+                  "cn/membership/comparison",
                   "membership/subscription",
                   "membership/lifetime"
                 ]
@@ -483,10 +580,10 @@
             ]
           },
           {
-            "tab": "Changelog",
+            "tab": "更新日志",
             "groups": [
               {
-                "group": "Changelog",
+                "group": "更新日志",
                 "pages": [
                   "changelog/overview"
                 ]
