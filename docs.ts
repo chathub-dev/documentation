@@ -35,12 +35,13 @@ const DEFAULT_NAVIGATION: Navigation = {
             'features/prompt-library',
             'features/chat-history',
             'features/custom-instructions',
+            'premium-features/file-upload',
+            'features/code-interpreter',
           ],
         },
         {
           group: 'Premium Features',
           pages: [
-            'premium-features/file-upload',
             'premium-features/web-access',
             'premium-features/summarize-chat',
             'premium-features/code-preview',
