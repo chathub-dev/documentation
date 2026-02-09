@@ -62,7 +62,7 @@ const DEFAULT_NAVIGATION: Navigation = {
         },
         {
           group: 'Membership',
-          pages: ['membership/comparison', 'membership/subscription', 'membership/lifetime'],
+          pages: ['membership/comparison', 'membership/subscription'],
         },
         {
           group: 'ChatHub AI Service',

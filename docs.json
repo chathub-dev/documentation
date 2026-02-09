@@ -62,8 +62,7 @@
                 "group": "Membership",
                 "pages": [
                   "membership/comparison",
-                  "membership/subscription",
-                  "membership/lifetime"
+                  "membership/subscription"
                 ]
               },
               {
@@ -160,8 +159,7 @@
                 "group": "Membership",
                 "pages": [
                   "membership/comparison",
-                  "membership/subscription",
-                  "membership/lifetime"
+                  "membership/subscription"
                 ]
               },
               {
@@ -258,8 +256,7 @@
                 "group": "Membership",
                 "pages": [
                   "membership/comparison",
-                  "membership/subscription",
-                  "membership/lifetime"
+                  "membership/subscription"
                 ]
               },
               {
@@ -356,8 +353,7 @@
                 "group": "Membership",
                 "pages": [
                   "membership/comparison",
-                  "membership/subscription",
-                  "membership/lifetime"
+                  "membership/subscription"
                 ]
               },
               {
@@ -454,8 +450,7 @@
                 "group": "Membership",
                 "pages": [
                   "membership/comparison",
-                  "membership/subscription",
-                  "membership/lifetime"
+                  "membership/subscription"
                 ]
               },
               {
@@ -552,8 +547,7 @@
                 "group": "Membership",
                 "pages": [
                   "cn/membership/comparison",
-                  "membership/subscription",
-                  "membership/lifetime"
+                  "membership/subscription"
                 ]
               },
               {
