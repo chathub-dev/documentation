@@ -76,8 +76,8 @@
               {
                 "group": "Chathub Notebook (beta)",
                 "pages": [
-                  "intoduction",
-                  "quick-start"
+                  "notebook/intoduction",
+                  "notebook/quick-start"
                 ]
               },
               {
