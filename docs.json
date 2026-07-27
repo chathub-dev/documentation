@@ -74,6 +74,13 @@
                 ]
               },
               {
+                "group": "Chathub Notebook (beta)",
+                "pages": [
+                  "intoduction",
+                  "quick-start"
+                ]
+              },
+              {
                 "group": "Use Cases",
                 "pages": [
                   "use-cases/educators",
@@ -104,7 +111,8 @@
                   "changelog/overview"
                 ]
               }
-            ]
+            ],
+            "hidden": true
           }
         ]
       },
