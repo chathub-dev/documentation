@@ -590,6 +590,13 @@
                   "miscellaneous/desktop-app",
                   "miscellaneous/update-manually"
                 ]
+              },
+              {
+                "group": "Chathub Notebook (beta)",
+                "pages": [
+                  "background-and-intoduction",
+                  "quick-start"
+                ]
               }
             ]
           },
