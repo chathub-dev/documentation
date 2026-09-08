@@ -70,7 +70,8 @@
                 "group": "ChatHub AI Service",
                 "pages": [
                   "cloud/index",
-                  "cloud/image-generation"
+                  "cloud/image-generation",
+                  "cloud/purchased-credits"
                 ]
               },
               {
