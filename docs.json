@@ -573,6 +573,13 @@
                 ]
               },
               {
+                "group": "ChatHub Notebook（测试版）",
+                "pages": [
+                  "cn/notebook/intoduction",
+                  "cn/notebook/quick-start"
+                ]
+              },
+              {
                 "group": "使用场景",
                 "pages": [
                   "cn/use-cases/educators",
@@ -590,13 +597,6 @@
                   "cn/miscellaneous/troubleshooting",
                   "cn/miscellaneous/desktop-app",
                   "cn/miscellaneous/update-manually"
-                ]
-              },
-              {
-                "group": "ChatHub Notebook（测试版）",
-                "pages": [
-                  "cn/notebook/intoduction",
-                  "cn/notebook/quick-start"
                 ]
               }
             ]
