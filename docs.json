@@ -516,87 +516,87 @@
             "tab": "文档",
             "groups": [
               {
-                "group": "Overview",
+                "group": "概览",
                 "pages": [
-                  "introduction",
-                  "overview/web-app",
-                  "overview/chrome-extension",
-                  "overview/ios-android-app"
+                  "cn/introduction",
+                  "cn/overview/web-app",
+                  "cn/overview/chrome-extension",
+                  "cn/overview/ios-android-app"
                 ]
               },
               {
-                "group": "Features",
+                "group": "功能",
                 "pages": [
-                  "features/chat-simultaneously",
-                  "features/image-upload",
-                  "features/prompt-library",
-                  "features/chat-history",
-                  "features/custom-instructions",
-                  "premium-features/file-upload",
-                  "features/code-interpreter"
+                  "cn/features/chat-simultaneously",
+                  "cn/features/image-upload",
+                  "cn/features/prompt-library",
+                  "cn/features/chat-history",
+                  "cn/features/custom-instructions",
+                  "cn/premium-features/file-upload",
+                  "cn/features/code-interpreter"
                 ]
               },
               {
-                "group": "Premium Features",
+                "group": "高级功能",
                 "pages": [
-                  "premium-features/web-access",
-                  "premium-features/summarize-chat",
-                  "premium-features/code-preview",
-                  "premium-features/side-panel",
+                  "cn/premium-features/web-access",
+                  "cn/premium-features/summarize-chat",
+                  "cn/premium-features/code-preview",
+                  "cn/premium-features/side-panel",
                   {
-                    "group": "Custom Chatbots",
+                    "group": "自定义聊天机器人",
                     "pages": [
-                      "custom-chatbots/index",
-                      "custom-chatbots/openai",
-                      "custom-chatbots/openrouter",
-                      "custom-chatbots/ollama",
-                      "custom-chatbots/straico",
-                      "custom-chatbots/together",
-                      "custom-chatbots/xinference"
+                      "cn/custom-chatbots/index",
+                      "cn/custom-chatbots/openai",
+                      "cn/custom-chatbots/openrouter",
+                      "cn/custom-chatbots/ollama",
+                      "cn/custom-chatbots/straico",
+                      "cn/custom-chatbots/together",
+                      "cn/custom-chatbots/xinference"
                     ]
                   }
                 ]
               },
               {
-                "group": "Membership",
+                "group": "会员",
                 "pages": [
                   "cn/membership/comparison",
-                  "membership/subscription",
-                  "membership/lifetime"
+                  "cn/membership/subscription",
+                  "cn/membership/lifetime"
                 ]
               },
               {
-                "group": "ChatHub AI Service",
+                "group": "ChatHub AI 服务",
                 "pages": [
-                  "cloud/index",
-                  "cloud/image-generation"
+                  "cn/cloud/index",
+                  "cn/cloud/image-generation"
                 ]
               },
               {
-                "group": "Use Cases",
+                "group": "使用场景",
                 "pages": [
-                  "use-cases/educators",
-                  "use-cases/researchers",
-                  "use-cases/content-creators",
-                  "use-cases/hr",
-                  "use-cases/students"
+                  "cn/use-cases/educators",
+                  "cn/use-cases/researchers",
+                  "cn/use-cases/content-creators",
+                  "cn/use-cases/hr",
+                  "cn/use-cases/students"
                 ]
               },
               {
-                "group": "Miscellaneous",
+                "group": "其他",
                 "pages": [
-                  "miscellaneous/contact",
-                  "miscellaneous/faq",
-                  "miscellaneous/troubleshooting",
-                  "miscellaneous/desktop-app",
-                  "miscellaneous/update-manually"
+                  "cn/miscellaneous/contact",
+                  "cn/miscellaneous/faq",
+                  "cn/miscellaneous/troubleshooting",
+                  "cn/miscellaneous/desktop-app",
+                  "cn/miscellaneous/update-manually"
                 ]
               },
               {
-                "group": "Chathub Notebook (beta)",
+                "group": "ChatHub Notebook（测试版）",
                 "pages": [
-                  "background-and-intoduction",
-                  "quick-start"
+                  "cn/notebook/intoduction",
+                  "cn/notebook/quick-start"
                 ]
               }
             ]
@@ -607,7 +607,7 @@
               {
                 "group": "更新日志",
                 "pages": [
-                  "changelog/overview"
+                  "cn/changelog/overview"
                 ]
               }
             ]

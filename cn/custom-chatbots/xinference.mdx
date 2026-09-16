@@ -1,0 +1,28 @@
+---
+title: "Xinference"
+---
+
+Xorbits Inference（Xinference）是一个开源项目，可以在你自己的设备上运行语言模型。你可以用它在本地部署 Llama-3 等开源大语言模型服务。
+
+## 准备工作
+
+按照 [Xinference 使用指南](https://inference.readthedocs.io/en/latest/getting_started/using_xinference.html)中的说明设置 Xinference，并运行 `llama-2-chat` 模型。
+
+## 配置
+
+<img
+  src="/images/custom-bots/xinference.png"
+  alt=""
+  width="1302"
+  height="1060"
+/>
+
+- **API 地址（API Host）**：`http://127.0.0.1:9997`
+- **API 密钥（API Key）**：任意字符串
+- **模型（Model）**：`llama-3-chat`
+
+你可以在 [Xinference 模型列表](https://inference.readthedocs.io/en/latest/models/builtin/llm/index.html)查看所有可用模型。
+
+## 故障排查
+
+- 仅支持名称中包含 `chat` 的模型。

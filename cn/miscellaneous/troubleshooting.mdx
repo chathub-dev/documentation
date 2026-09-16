@@ -1,0 +1,52 @@
+---
+title: "故障排查"
+---
+
+## “此许可证密钥已达到激活数量上限”
+
+错误原文：`This license key has reached the activation limit`
+
+这条错误提示表示，你的 ChatHub 许可证密钥已达到允许激活的设备（浏览器）数量上限。不同许可证的激活数量上限不同，购买前会有相应说明。
+
+由于浏览器扩展的安全限制，ChatHub 无法读取设备硬件信息，因此会根据执行“激活”操作的次数来统计激活数量。这意味着，即使使用同一台设备，某些操作也会被计为多次激活。以下情况均会计为两次独立激活：
+
+- 先在 Chrome 中激活 ChatHub，再在同一台电脑的 Edge 中激活。
+- 在 Chrome 中激活 ChatHub 后，卸载并重新安装 Chrome，再次激活。
+- 在 Chrome 中激活 ChatHub 后，卸载并重新安装 ChatHub 扩展，再次激活。
+
+你可以通过以下两种方式解决：
+
+<AccordionGroup>
+  <Accordion title="使用许可证管理工具">
+    <Steps>
+      <Step title="打开许可证管理工具">
+        [https://app.chathub.gg/license-manager](https://app.chathub.gg/license-manager)
+      </Step>
+      <Step title="输入许可证密钥">
+        查看当前已激活的所有设备（浏览器）。
+      </Step>
+      <Step title="从列表中移除一个或多个设备">
+        这样即可为该许可证密钥腾出激活名额。
+      </Step>
+      <Step title="激活当前设备">
+        有可用名额后，即可在 ChatHub 浏览器扩展中激活当前设备。
+      </Step>
+    </Steps>
+  </Accordion>
+
+  <Accordion title="升级许可证">
+    升级许可证可以增加可激活的设备数量。你可以联系 [ChatHub 支持团队](/cn/miscellaneous/contact)，补差价完成升级。
+  </Accordion>
+</AccordionGroup>
+
+## “你向该模型发送的消息过多，请稍后重试”
+
+`{"detail":{"message":"You have sent too many messages to the model. Please try again later.","code":"model_cap_exceeded","clears_in":0}}`
+
+这条错误来自 ChatGPT。由于你在 ChatHub 浏览器扩展中使用的是 ChatGPT 账号，因此仍受相同的使用限制。也就是说，在 chatgpt.com 上也会遇到同样的错误。
+
+你可以尝试以下方式解决：
+
+- 等待 ChatGPT 的使用额度重置。
+- 在 ChatHub 浏览器扩展中配置 OpenAI API 密钥。
+- 订阅 ChatHub Pro+ 或 Unlimited 套餐。
