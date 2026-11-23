@@ -1,39 +1,39 @@
 ---
 title: "Models & Prompting"
-description: "Compare MiniMax H3, Seedance 2.5, and Seedance 2.0, and learn a practical formula for writing stronger video prompts."
+description: "Compare MiniMax H3, Seedance 2.5, and Seedance 2.0, and learn a clear framework for writing effective video prompts."
 ---
 
-Every video model in ChatHub generates **1 video per request**, supports **4–15 seconds**, and produces **synchronized AI audio** automatically.
+Every video model in ChatHub generates **1 video per request**, supports **4–15 seconds**, and includes **synchronized AI audio** automatically.
 
 ## Model Comparison
 
 | Model | Resolutions | Duration | Reference images | Best for |
 | --- | --- | --- | --- | --- |
-| **MiniMax H3** _(default)_ | `768p`, `2k` | 4–15s | Up to 9 | High-res `2k` output, multi-reference scenes (5–9 images) |
-| **Seedance 2.5** | `480p`, `720p`, `1080p` | 4–15s | Up to 4 | Cinematic camera motion, strong prompt adherence, quick `480p` drafts |
+| **MiniMax H3** _(default)_ | `768p`, `2k` | 4–15s | Up to 9 | High-resolution `2k` output, multi-reference scenes (5–9 images) |
+| **Seedance 2.5** | `480p`, `720p`, `1080p` | 4–15s | Up to 4 | Cinematic camera motion, strong prompt adherence, quick `480p` previews |
 | **Seedance 2.0** | `480p`, `720p`, `1080p` | 4–15s | Up to 9 | Lower credit cost per second, multi-reference scenes (up to 9 images) |
 
 <Tip>
-  **Save credits while iterating:** Draft your idea with a **5-second** clip at a lower resolution (`480p`, `720p`, or `768p`) first. Once composition and motion look right, switch to `1080p` or `2k` and extend the duration for your final render.
+  **Save credits while iterating:** Test your composition and motion with a **5-second** clip at a lower resolution (`480p`, `720p`, or `768p`) first. Once the result looks right, switch to `1080p` or `2k` and extend the duration for your final version.
 </Tip>
 
-## A Reliable Prompt Formula
+## A Reliable Prompt Framework
 
-A clear, beginner-friendly structure is:
+A clear structure for consistently strong results is:
 
 > **Subject + Action + Setting & Lighting + Camera Movement + Audio / Atmosphere**
 
-Each part helps the model make concrete visual decisions:
+Each element gives the model concrete creative direction:
 
-- **Subject:** Who or what is the focus (appearance, clothing, expression, texture).
-- **Action:** What visibly changes over the clip — keep it focused on 1–2 continuous actions for a 5-second video.
-- **Setting & Lighting:** Time of day, environment, color mood (e.g., _warm golden morning sunbeams_, _rainy neon alley at dusk_).
-- **Camera Movement:** Simple cinematic verbs work best — _slow dolly-in_, _gentle pan left_, _smooth tracking shot from behind_, _static locked-off frame_.
-- **Audio / Atmosphere:** Since audio is generated automatically, mentioning ambient sound or effects (e.g., _soft pouring water_, _crunching footsteps_, _warm café murmur_) helps keep sound aligned with the visuals.
+- **Subject:** Who or what is the visual focus (appearance, clothing, expression, materials).
+- **Action:** What visibly changes during the clip — focusing on 1–2 continuous actions produces the smoothest results in a 5-second video.
+- **Setting & Lighting:** Time of day, environment, and color mood (for example, _warm golden morning sunbeams_ or _rainy neon street at dusk_).
+- **Camera Movement:** Simple cinematic directions work best — _slow dolly-in_, _gentle pan left_, _smooth tracking shot from behind_, or _steady locked-off frame_.
+- **Audio / Atmosphere:** Because audio is generated automatically, describing ambient sound or effects (such as _soft pouring water_, _footsteps on gravel_, or _warm café ambience_) helps keep sound aligned with the visuals.
 
-## Common Pitfalls to Avoid
+## Common Mistakes to Avoid
 
-- **Cramming too many cuts into 5 seconds:** A single continuous shot almost always looks smoother than describing three different scenes in one short clip.
-- **Describing only a still picture:** Adding explicit motion (what moves, how fast, and how the camera reacts) prevents stiff, nearly frozen videos.
-- **Re-describing static frames in Image to video:** Let the uploaded First/Last frame define appearance; use your prompt to direct the motion and transition.
-- **Vague references in Reference to video:** Use the interactive `Image 1`, `Image 2` chips directly in sentences so the model knows which image controls the character, background, or prop.
+- **Combining too many scene changes into 5 seconds:** A single continuous shot almost always looks smoother and more coherent than describing multiple scene cuts in one short clip.
+- **Describing only a still image:** Adding explicit motion (what moves, at what pace, and how the camera responds) prevents stiff or nearly static videos.
+- **Repeating static frame details in Image to video:** Let your uploaded First/Last frame define appearance, and dedicate your prompt to movement and transitions.
+- **Leaving image roles ambiguous in Reference to video:** Insert the clickable `Image 1`, `Image 2` tags directly inside your sentences so each image's role is unmistakable.
