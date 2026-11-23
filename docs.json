@@ -75,6 +75,17 @@
                 ]
               },
               {
+                "group": "Video Generation",
+                "pages": [
+                  "video-generation/quick-start",
+                  "video-generation/text-to-video",
+                  "video-generation/image-to-video",
+                  "video-generation/reference-to-video",
+                  "video-generation/models-and-prompts",
+                  "video-generation/credits-and-faq"
+                ]
+              },
+              {
                 "group": "Chathub Notebook (beta)",
                 "pages": [
                   "notebook/intoduction",
@@ -181,6 +192,17 @@
                 ]
               },
               {
+                "group": "Video Generation",
+                "pages": [
+                  "video-generation/quick-start",
+                  "video-generation/text-to-video",
+                  "video-generation/image-to-video",
+                  "video-generation/reference-to-video",
+                  "video-generation/models-and-prompts",
+                  "video-generation/credits-and-faq"
+                ]
+              },
+              {
                 "group": "Use Cases",
                 "pages": [
                   "use-cases/educators",
@@ -276,6 +298,17 @@
                 "pages": [
                   "cloud/index",
                   "cloud/image-generation"
+                ]
+              },
+              {
+                "group": "Video Generation",
+                "pages": [
+                  "video-generation/quick-start",
+                  "video-generation/text-to-video",
+                  "video-generation/image-to-video",
+                  "video-generation/reference-to-video",
+                  "video-generation/models-and-prompts",
+                  "video-generation/credits-and-faq"
                 ]
               },
               {
@@ -377,6 +410,17 @@
                 ]
               },
               {
+                "group": "Video Generation",
+                "pages": [
+                  "video-generation/quick-start",
+                  "video-generation/text-to-video",
+                  "video-generation/image-to-video",
+                  "video-generation/reference-to-video",
+                  "video-generation/models-and-prompts",
+                  "video-generation/credits-and-faq"
+                ]
+              },
+              {
                 "group": "Use Cases",
                 "pages": [
                   "use-cases/educators",
@@ -475,6 +519,17 @@
                 ]
               },
               {
+                "group": "Video Generation",
+                "pages": [
+                  "video-generation/quick-start",
+                  "video-generation/text-to-video",
+                  "video-generation/image-to-video",
+                  "video-generation/reference-to-video",
+                  "video-generation/models-and-prompts",
+                  "video-generation/credits-and-faq"
+                ]
+              },
+              {
                 "group": "Use Cases",
                 "pages": [
                   "use-cases/educators",
@@ -570,6 +625,17 @@
                 "pages": [
                   "cn/cloud/index",
                   "cn/cloud/image-generation"
+                ]
+              },
+              {
+                "group": "视频生成",
+                "pages": [
+                  "cn/video-generation/quick-start",
+                  "cn/video-generation/text-to-video",
+                  "cn/video-generation/image-to-video",
+                  "cn/video-generation/reference-to-video",
+                  "cn/video-generation/models-and-prompts",
+                  "cn/video-generation/credits-and-faq"
                 ]
               },
               {

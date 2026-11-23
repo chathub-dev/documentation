@@ -1,0 +1,50 @@
+---
+title: "Reference to Video"
+description: "Combine multiple reference images to keep characters, objects, and visual styles consistent using interactive prompt chips."
+---
+
+**Reference to video** lets you upload one or more reference images — such as a character, a prop, and a background — and direct how each element appears inside a brand-new video scene.
+
+## Reference Limits by Model
+
+| Model | Max reference images | Image requirements |
+| --- | --- | --- |
+| **MiniMax H3** | Up to **9** images | `JPEG`, `PNG`, or `WebP`, max **2 MB** each |
+| **Seedance 2.0** | Up to **9** images | `JPEG`, `PNG`, or `WebP`, max **2 MB** each |
+| **Seedance 2.5** | Up to **4** images | `JPEG`, `PNG`, or `WebP`, max **2 MB** each |
+
+## How to Use Reference to Video
+
+<Steps>
+  <Step title="Select Reference to video and choose a model">
+    Switch to **Reference to video** in the [Video Generator](https://app.chathub.gg/video-generator). If you plan to upload 5–9 images, select **MiniMax H3** or **Seedance 2.0**.
+  </Step>
+  <Step title="Upload your reference images">
+    Click **Add image** or drag and drop image files into the **Reference images** box. Each image receives an ordered blue label (`Image 1`, `Image 2`, …).
+  </Step>
+  <Step title="Reference images directly inside your prompt">
+    Newly uploaded images are automatically appended to **User prompt** as interactive blue chips (`Image 1`, `Image 2`). You can also:
+
+    - **Click any blue `Image N` label** below a thumbnail to insert a chip at your cursor.
+    - **Drag a thumbnail directly into the prompt box** to drop a chip right where you want it.
+    - **Drag chips inside the prompt** to reposition them anytime.
+  </Step>
+  <Step title="Set format, check credits, and generate">
+    Pick **Duration** (4–15s), **Resolution**, and **Aspect ratio**, review the live credit estimate on the **Generate** button, and submit.
+  </Step>
+</Steps>
+
+<Frame caption="Reference to video mode: upload images and insert interactive blue Image 1 / Image 2 chips directly into your prompt.">
+  ![Reference to video mode](/images/video-generation/reference-to-video.png)
+</Frame>
+
+<Note>
+  You don't need to memorize model-specific reference syntax. ChatHub automatically converts the interactive `Image N` chips into the exact format each model expects when submitting your request.
+</Note>
+
+## Tips & Example
+
+- **Give each image one clear role** (for example, `Image 1` for the character on a clean background, `Image 2` for the environment, `Image 3` for a prop or outfit).
+- **Avoid conflicting styles** across references unless you explicitly describe how they should blend.
+- **Example prompt** _(`Image 1` = miniature white explorer robot, `Image 2` = glowing twilight forest trail)_:
+  > _`Image 1` walks cautiously down the mossy twilight path in `Image 2`, swinging its glowing lantern as golden fireflies drift upward around it. Smooth tracking shot, soft footsteps and gentle evening crickets._
