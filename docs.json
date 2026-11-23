@@ -71,7 +71,6 @@
                 "pages": [
                   "cloud/index",
                   "cloud/image-generation",
-                  "cloud/video-generation",
                   "cloud/purchased-credits"
                 ]
               },
@@ -178,8 +177,7 @@
                 "group": "ChatHub AI Service",
                 "pages": [
                   "cloud/index",
-                  "cloud/image-generation",
-                  "cloud/video-generation"
+                  "cloud/image-generation"
                 ]
               },
               {
@@ -277,8 +275,7 @@
                 "group": "ChatHub AI Service",
                 "pages": [
                   "cloud/index",
-                  "cloud/image-generation",
-                  "cloud/video-generation"
+                  "cloud/image-generation"
                 ]
               },
               {
@@ -376,8 +373,7 @@
                 "group": "ChatHub AI Service",
                 "pages": [
                   "cloud/index",
-                  "cloud/image-generation",
-                  "cloud/video-generation"
+                  "cloud/image-generation"
                 ]
               },
               {
@@ -475,8 +471,7 @@
                 "group": "ChatHub AI Service",
                 "pages": [
                   "cloud/index",
-                  "cloud/image-generation",
-                  "cloud/video-generation"
+                  "cloud/image-generation"
                 ]
               },
               {
@@ -574,8 +569,7 @@
                 "group": "ChatHub AI 服务",
                 "pages": [
                   "cn/cloud/index",
-                  "cn/cloud/image-generation",
-                  "cn/cloud/video-generation"
+                  "cn/cloud/image-generation"
                 ]
               },
               {
