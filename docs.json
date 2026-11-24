@@ -70,12 +70,6 @@
                 "group": "ChatHub AI Service",
                 "pages": [
                   "cloud/index",
-                  "cloud/purchased-credits"
-                ]
-              },
-              {
-                "group": "Image & Video Generation",
-                "pages": [
                   "cloud/image-generation",
                   {
                     "group": "Video Generation",
@@ -88,7 +82,8 @@
                       "video-generation/models-and-prompts",
                       "video-generation/credits-and-faq"
                     ]
-                  }
+                  },
+                  "cloud/purchased-credits"
                 ]
               },
               {
@@ -194,12 +189,6 @@
                 "group": "ChatHub AI Service",
                 "pages": [
                   "cloud/index",
-                  "cloud/purchased-credits"
-                ]
-              },
-              {
-                "group": "Image & Video Generation",
-                "pages": [
                   "cloud/image-generation",
                   {
                     "group": "Video Generation",
@@ -212,7 +201,8 @@
                       "video-generation/models-and-prompts",
                       "video-generation/credits-and-faq"
                     ]
-                  }
+                  },
+                  "cloud/purchased-credits"
                 ]
               },
               {
@@ -310,12 +300,6 @@
                 "group": "ChatHub AI Service",
                 "pages": [
                   "cloud/index",
-                  "cloud/purchased-credits"
-                ]
-              },
-              {
-                "group": "Image & Video Generation",
-                "pages": [
                   "cloud/image-generation",
                   {
                     "group": "Video Generation",
@@ -328,7 +312,8 @@
                       "video-generation/models-and-prompts",
                       "video-generation/credits-and-faq"
                     ]
-                  }
+                  },
+                  "cloud/purchased-credits"
                 ]
               },
               {
@@ -426,12 +411,6 @@
                 "group": "ChatHub AI Service",
                 "pages": [
                   "cloud/index",
-                  "cloud/purchased-credits"
-                ]
-              },
-              {
-                "group": "Image & Video Generation",
-                "pages": [
                   "cloud/image-generation",
                   {
                     "group": "Video Generation",
@@ -444,7 +423,8 @@
                       "video-generation/models-and-prompts",
                       "video-generation/credits-and-faq"
                     ]
-                  }
+                  },
+                  "cloud/purchased-credits"
                 ]
               },
               {
@@ -542,12 +522,6 @@
                 "group": "ChatHub AI Service",
                 "pages": [
                   "cloud/index",
-                  "cloud/purchased-credits"
-                ]
-              },
-              {
-                "group": "Image & Video Generation",
-                "pages": [
                   "cloud/image-generation",
                   {
                     "group": "Video Generation",
@@ -560,7 +534,8 @@
                       "video-generation/models-and-prompts",
                       "video-generation/credits-and-faq"
                     ]
-                  }
+                  },
+                  "cloud/purchased-credits"
                 ]
               },
               {
@@ -658,12 +633,6 @@
                 "group": "ChatHub AI 服务",
                 "pages": [
                   "cn/cloud/index",
-                  "cn/cloud/purchased-credits"
-                ]
-              },
-              {
-                "group": "图像和视频生成",
-                "pages": [
                   "cn/cloud/image-generation",
                   {
                     "group": "视频生成",
@@ -676,7 +645,8 @@
                       "cn/video-generation/models-and-prompts",
                       "cn/video-generation/credits-and-faq"
                     ]
-                  }
+                  },
+                  "cn/cloud/purchased-credits"
                 ]
               },
               {
