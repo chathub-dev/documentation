@@ -70,19 +70,25 @@
                 "group": "ChatHub AI Service",
                 "pages": [
                   "cloud/index",
-                  "cloud/image-generation",
                   "cloud/purchased-credits"
                 ]
               },
               {
-                "group": "Video Generation",
+                "group": "Image & Video Generation",
                 "pages": [
-                  "video-generation/quick-start",
-                  "video-generation/text-to-video",
-                  "video-generation/image-to-video",
-                  "video-generation/reference-to-video",
-                  "video-generation/models-and-prompts",
-                  "video-generation/credits-and-faq"
+                  "cloud/image-generation",
+                  {
+                    "group": "Video Generation",
+                    "pages": [
+                      "video-generation/quick-start",
+                      "video-generation/examples",
+                      "video-generation/text-to-video",
+                      "video-generation/image-to-video",
+                      "video-generation/reference-to-video",
+                      "video-generation/models-and-prompts",
+                      "video-generation/credits-and-faq"
+                    ]
+                  }
                 ]
               },
               {
@@ -187,19 +193,25 @@
               {
                 "group": "ChatHub AI Service",
                 "pages": [
-                  "cloud/index",
-                  "cloud/image-generation"
+                  "cloud/index"
                 ]
               },
               {
-                "group": "Video Generation",
+                "group": "Image & Video Generation",
                 "pages": [
-                  "video-generation/quick-start",
-                  "video-generation/text-to-video",
-                  "video-generation/image-to-video",
-                  "video-generation/reference-to-video",
-                  "video-generation/models-and-prompts",
-                  "video-generation/credits-and-faq"
+                  "cloud/image-generation",
+                  {
+                    "group": "Video Generation",
+                    "pages": [
+                      "video-generation/quick-start",
+                      "video-generation/examples",
+                      "video-generation/text-to-video",
+                      "video-generation/image-to-video",
+                      "video-generation/reference-to-video",
+                      "video-generation/models-and-prompts",
+                      "video-generation/credits-and-faq"
+                    ]
+                  }
                 ]
               },
               {
@@ -296,19 +308,25 @@
               {
                 "group": "ChatHub AI Service",
                 "pages": [
-                  "cloud/index",
-                  "cloud/image-generation"
+                  "cloud/index"
                 ]
               },
               {
-                "group": "Video Generation",
+                "group": "Image & Video Generation",
                 "pages": [
-                  "video-generation/quick-start",
-                  "video-generation/text-to-video",
-                  "video-generation/image-to-video",
-                  "video-generation/reference-to-video",
-                  "video-generation/models-and-prompts",
-                  "video-generation/credits-and-faq"
+                  "cloud/image-generation",
+                  {
+                    "group": "Video Generation",
+                    "pages": [
+                      "video-generation/quick-start",
+                      "video-generation/examples",
+                      "video-generation/text-to-video",
+                      "video-generation/image-to-video",
+                      "video-generation/reference-to-video",
+                      "video-generation/models-and-prompts",
+                      "video-generation/credits-and-faq"
+                    ]
+                  }
                 ]
               },
               {
@@ -405,19 +423,25 @@
               {
                 "group": "ChatHub AI Service",
                 "pages": [
-                  "cloud/index",
-                  "cloud/image-generation"
+                  "cloud/index"
                 ]
               },
               {
-                "group": "Video Generation",
+                "group": "Image & Video Generation",
                 "pages": [
-                  "video-generation/quick-start",
-                  "video-generation/text-to-video",
-                  "video-generation/image-to-video",
-                  "video-generation/reference-to-video",
-                  "video-generation/models-and-prompts",
-                  "video-generation/credits-and-faq"
+                  "cloud/image-generation",
+                  {
+                    "group": "Video Generation",
+                    "pages": [
+                      "video-generation/quick-start",
+                      "video-generation/examples",
+                      "video-generation/text-to-video",
+                      "video-generation/image-to-video",
+                      "video-generation/reference-to-video",
+                      "video-generation/models-and-prompts",
+                      "video-generation/credits-and-faq"
+                    ]
+                  }
                 ]
               },
               {
@@ -514,19 +538,25 @@
               {
                 "group": "ChatHub AI Service",
                 "pages": [
-                  "cloud/index",
-                  "cloud/image-generation"
+                  "cloud/index"
                 ]
               },
               {
-                "group": "Video Generation",
+                "group": "Image & Video Generation",
                 "pages": [
-                  "video-generation/quick-start",
-                  "video-generation/text-to-video",
-                  "video-generation/image-to-video",
-                  "video-generation/reference-to-video",
-                  "video-generation/models-and-prompts",
-                  "video-generation/credits-and-faq"
+                  "cloud/image-generation",
+                  {
+                    "group": "Video Generation",
+                    "pages": [
+                      "video-generation/quick-start",
+                      "video-generation/examples",
+                      "video-generation/text-to-video",
+                      "video-generation/image-to-video",
+                      "video-generation/reference-to-video",
+                      "video-generation/models-and-prompts",
+                      "video-generation/credits-and-faq"
+                    ]
+                  }
                 ]
               },
               {
@@ -623,19 +653,25 @@
               {
                 "group": "ChatHub AI 服务",
                 "pages": [
-                  "cn/cloud/index",
-                  "cn/cloud/image-generation"
+                  "cn/cloud/index"
                 ]
               },
               {
-                "group": "视频生成",
+                "group": "图像和视频生成",
                 "pages": [
-                  "cn/video-generation/quick-start",
-                  "cn/video-generation/text-to-video",
-                  "cn/video-generation/image-to-video",
-                  "cn/video-generation/reference-to-video",
-                  "cn/video-generation/models-and-prompts",
-                  "cn/video-generation/credits-and-faq"
+                  "cn/cloud/image-generation",
+                  {
+                    "group": "视频生成",
+                    "pages": [
+                      "cn/video-generation/quick-start",
+                      "cn/video-generation/examples",
+                      "cn/video-generation/text-to-video",
+                      "cn/video-generation/image-to-video",
+                      "cn/video-generation/reference-to-video",
+                      "cn/video-generation/models-and-prompts",
+                      "cn/video-generation/credits-and-faq"
+                    ]
+                  }
                 ]
               },
               {
