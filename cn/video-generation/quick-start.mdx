@@ -1,0 +1,59 @@
+---
+title: "快速开始"
+description: "通过几个简单步骤在 ChatHub 中创作你的第一条 AI 视频，了解云端后台生成与历史记录管理方式。"
+---
+
+通过 ChatHub 的[视频生成器](https://app.chathub.gg/video-generator)，你可以直接在浏览器中使用文字提示词、首尾帧图片或多张参考图，创作带有同步音频的 AI 短视频。
+
+所有已登录用户（包括免费账号，只要拥有足够点数）均可使用视频生成功能。
+
+## 生成你的第一条视频
+
+<Frame caption="视频生成器界面总览：左侧配置生成模式、提示词与预计点数，右侧查看任务进度与历史记录。">
+  ![视频生成器界面总览](/images/video-generation/overview-cn.png)
+</Frame>
+
+<Steps>
+  <Step title="打开视频生成器">
+    访问 [app.chathub.gg/video-generator](https://app.chathub.gg/video-generator)，或在左侧边栏打开 **工具 → 视频生成器**（英文界面为 `Tools → Video Generator`）。如尚未登录，请先登录账号。
+  </Step>
+  <Step title="选择模式、模型与参数">
+    在左侧面板选择一种生成模式（**文生视频**、**图生视频**或**参考生视频**），选择模型（**MiniMax H3**、**Seedance 2.5** 或 **Seedance 2.0**），并配置**时长**（4–15 秒）、**分辨率**与**画幅比例**。
+  </Step>
+  <Step title="输入提示词并核对预计点数">
+    在提示词框中描述画面动作、场景与氛围（最多 5,000 字符）。参数与素材就绪后，底部的**生成**按钮会实时计算并显示预计点数（`生成 · 预计 X 点`）。
+  </Step>
+  <Step title="提交并在云端后台等待生成">
+    点击**生成**（或按快捷键 `Ctrl + Enter` / `Cmd + Enter`），任务将立即出现在右侧工作区中。你可以放心切换至其他页面或关闭浏览器，生成任务会在云端后台继续运行，再次返回页面时会自动同步进度。
+  </Step>
+</Steps>
+
+## 生成进度与历史管理
+
+<Frame caption="右侧历史工作区：支持按状态与任务类型筛选、查看参数详情、展开复制提示词以及下载与删除记录。">
+  ![视频生成工作区与历史记录](/images/video-generation/workspace-history-cn.png)
+</Frame>
+
+- **同时处理多个任务**：每个账号同一时间最多可运行 **3 个**进行中（排队中或生成中）的视频任务。
+- **实时进度与完成提醒**：进行中的任务卡片会显示当前状态（排队中 / 正在生成视频）、已耗时和预计等待区间；开启浏览器通知后，视频生成完成时会第一时间提醒你。
+- **筛选与结果管理**：右侧顶部支持勾选**进行中**或按**任务类型**筛选。每条记录均支持悬停**查看参数**、点击**展开**并**复制提示词**、**下载** `.mp4` 视频或**删除**已完成和失败的记录。
+
+## 继续了解
+
+<CardGroup cols={2}>
+  <Card title="文生视频" icon="text" href="/cn/video-generation/text-to-video">
+    纯文字从零创作视频，自由选择 6 种常用画幅比例。
+  </Card>
+
+  <Card title="图生视频" icon="image" href="/cn/video-generation/image-to-video">
+    上传首帧让静图产生动态，或搭配可选尾帧控制结束构图。
+  </Card>
+
+  <Card title="参考生视频" icon="images" href="/cn/video-generation/reference-to-video">
+    上传多张参考图，并在提示词中使用图片标签精准指代对应元素。
+  </Card>
+
+  <Card title="模型与提示词技巧" icon="sparkles" href="/cn/video-generation/models-and-prompts">
+    对比 MiniMax H3、Seedance 2.5 与 Seedance 2.0，掌握通用提示词结构。
+  </Card>
+</CardGroup>
