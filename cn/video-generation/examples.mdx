@@ -1,6 +1,6 @@
 ---
 title: "实战案例"
-description: "4 个在 ChatHub 视频生成器中真实出片的完整案例——包含可播放带音效成片、可复用输入素材、完整提示词与低成本试稿工作流。"
+description: "4 个在 ChatHub 视频生成器中真实出片的完整案例——包含高清带音效成片、可复用输入素材、完整提示词与低成本试稿工作流。"
 ---
 
 本页展示的 4 条视频均直接在 [ChatHub 视频生成器](https://app.chathub.gg/video-generator)中生成，全部包含原生同步音频。播放视频时建议开启声音，体验 AI 自动生成的拟真音效与环境音。
@@ -9,9 +9,9 @@ description: "4 个在 ChatHub 视频生成器中真实出片的完整案例—�
 
 | # | 案例主题 | 生成模式 | 推荐模型 | 成片参数 | 试稿 → 成片预估点数\* |
 | :-: | --- | --- | --- | --- | --- |
-| **1** | **冰镇气泡饮品微距商业广告** | 文生视频 | `Seedance 2.5` | `9:16` · `8s` · `1080p` | `296` → `2,729` |
+| **1** | **瑞士阿尔卑斯红皮列车晨雾航拍** | 文生视频 | `Seedance 2.5` | `9:16` · `8s` · `1080p` | `296` → `2,729` |
 | **2** | **雨夜霓虹拉面街角插画动效** | 图生视频（仅首帧） | `MiniMax H3` | 跟随原图 · `6s` · `2k` | `276` → `449` |
-| **3** | **同一机位昼夜光影无缝延时** | 图生视频（首帧 + 尾帧） | `Seedance 2.5` | 跟随原图 · `10s` · `1080p` | `309` → `3,434` |
+| **3** | **同一机位昼夜光影无缝延时** | 图生视频（首帧 + 尾帧） | `MiniMax H3` | 跟随原图 · `10s` · `2k` | `460` → `748` |
 | **4** | **多素材固定角色奇幻短片** | 参考生视频（3 张图） | `Seedance 2.0` | `16:9` · `8s` · `1080p` | `202` → `1,796` |
 
 <Note>
@@ -20,14 +20,14 @@ description: "4 个在 ChatHub 视频生成器中真实出片的完整案例—�
 
 ---
 
-## 案例 1：冰镇气泡饮品微距商业广告（文生视频）
+## 案例 1：瑞士阿尔卑斯红皮列车晨雾航拍（文生视频）
 
-无需任何图片素材，纯文字即可生成具备商业棚拍质感、流体慢动作和立体声拟真音效的竖屏短视频广告。
+无需任何图片素材，纯文字即可生成纪录片级实拍质感的竖屏无人机航拍——红色山地列车平稳驶过峡谷石拱高架桥，晨雾在松林间缓缓流动，镜头拉升展现雪山纵深，并自带真实铁轨声与山谷风声。
 
-<Frame caption="实测成片：Seedance 2.5 · 文生视频 · 9:16 · 8s · 1080p（含冰块撞击、倒水与气泡同步音效）。">
+<Frame caption="实测成片：Seedance 2.5 · 文生视频 · 9:16 · 8s · 1080p（含列车铁轨声、山谷风声与远方冰川河水声）。">
   <div className="mx-auto max-w-[320px]">
-  <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case1-poster.jpg" className="w-full rounded-xl">
-    <source src="/videos/video-generation/case1-citrus-soda.mp4" type="video/mp4" />
+  <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case1-alpine-poster.jpg" className="w-full rounded-xl">
+    <source src="/videos/video-generation/case1-alpine-train.mp4" type="video/mp4" />
   </video>
 </div>
 </Frame>
@@ -35,12 +35,12 @@ description: "4 个在 ChatHub 视频生成器中真实出片的完整案例—�
 ### 可直接复制的提示词
 
 ```text
-极简暗调石板桌面上的商业棚拍微距镜头。前半段，晶莹的冰块与一片新鲜血橙以慢动作落入修长磨砂玻璃杯中，冰镇金黄色柑橘气泡水从上方缓缓倾注，细密活跃的气泡迅速向上翻涌，冰凉的水珠在杯壁凝结滑落。后半段，镜头平稳拉远并微微环绕，在温暖琥珀色轮廓逆光与干净深色背景中展现整杯饮品的通透质感。同步高清拟真音效：清脆的冰块撞击声、清爽的倒水声与细腻的滋滋气泡声。
+瑞士阿尔卑斯山日出时分的真实纪录片无人机航拍电影画面。一列经典的鲜红色山地铁路列车平稳匀速地驶过一座高耸风化的灰色石拱高架桥，桥下是云雾缭绕的深邃高山峡谷。半透明的金色晨雾缓缓漂浮在陡峭岩壁与覆雪冷杉松林之间，清透的清晨日光照亮远处淡蓝天空下巍峨起伏的积雪山峰。真实自然的电影调色、细腻的大气薄雾层次、写实光影与阴影，零 CG 塑料感。无人机镜头平稳向后拉远并缓缓攀升，层层展现石拱高架桥与整片高山峡谷的壮阔纵向尺度。同步自然户外音效：列车车轮驶过钢轨的真实规律碰撞声、山谷间轻柔回荡的晨风声，以及峡谷深处若隐若现的冰川河水流声。
 ```
 
 <Accordion title="查看本案例成片实际提交所用的英文提示词">
   ```text
-  Ultra-crisp commercial studio macro shot on a matte dark slate tabletop. In the first half, crystal-clear ice cubes and a fresh blood-orange slice drop in slow motion into a tall minimalist frosted glass as chilled golden sparkling citrus soda pours from above, sending thousands of lively effervescent bubbles rushing upward with crisp condensation droplets forming on the glass. In the second half, the camera glides smoothly back and slightly orbits to reveal the whole glowing glass backlit by a warm amber rim light against a clean moody backdrop. Synchronized high-definition Foley audio: crisp clinking ice cubes, refreshing liquid pour, and bright fizzy carbonation sizzle.
+  Authentic documentary aerial cinema footage captured on a real cinema drone at sunrise in the Swiss Alps. A classic bright-red mountain railway train glides smoothly and steadily across a towering weathered gray stone arch viaduct spanning a deep misty alpine gorge. Wisps of translucent golden morning fog drift slowly through dark snow-dusted pine trees along the steep rocky canyon walls, while crisp early sunrise light illuminates rugged snow-covered mountain peaks rising high into a pale blue sky in the background. Natural real-world color grading, subtle atmospheric haze, realistic lighting and shadows, zero CGI sheen. The camera performs a smooth, steady aerial pull-back and gentle ascent, revealing the breathtaking vertical scale of the stone bridge and valley below. Synchronized natural outdoor audio: authentic rhythmic clatter of train wheels rolling over steel rails, soft echoing alpine wind, and the distant rush of a glacial river deep in the gorge.
   ```
 </Accordion>
 
@@ -48,14 +48,14 @@ description: "4 个在 ChatHub 视频生成器中真实出片的完整案例—�
 
 | 阶段 | 模式 | 模型 | 画幅比例 | 时长 | 分辨率 | 实测预估点数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **低成本试稿**（验证构图与节奏） | 文生视频 | `Seedance 2.5` | `9:16` | `5s` | `480p` | `296` |
-| **正式出片**（高清成片交付） | 文生视频 | `Seedance 2.5` | `9:16` | `8s` | `1080p` | `2,729` |
+| **低成本试稿**（验证构图与航拍轨迹） | 文生视频 | `Seedance 2.5` | `9:16` | `5s` | `480p` | `296` |
+| **正式出片**（1080p 高清交付） | 文生视频 | `Seedance 2.5` | `9:16` | `8s` | `1080p` | `2,729` |
 
 ### 效果拆解与实战技巧
 
-- **两段式节奏设计**：把 8 秒拆成「前半段：落冰 + 倒液 + 气泡翻涌」与「后半段：镜头拉远环绕定格展示」，画面自带广告起承转合，不会整段单调重复。
-- **把具体拟音写进提示词**：明确写出「清脆冰块撞击声、倒水声、滋滋气泡声」，模型生成的同步音频会比不写声音描述明显更有层次感。
-- **先用 `480p` 省点数试稿**：`5s + 480p` 仅需 `296` 点，不到正式 `8s + 1080p` 成片的 **1/9**；先低成本验证构图与动态，满意后再切高清出片。
+- **用纪录片镜头语言消除「AI/CG 感」**：明确写出「真实纪录片无人机航拍」「真实自然调色」「细腻大气薄雾」「零 CG 质感」，生成的动态范围、石桥砌砖与松林层次会明显更接近实拍素材。
+- **单一路线长运镜更稳、更有纵深感**：连续平稳的「拉远 + 缓升」航拍非常适合 `9:16` 竖屏构图，从红皮列车与石桥墩一路拉升到云雾峡谷和雪山顶峰，全程无镜头跳切。
+- **先用 `480p` 试稿再升 `1080p`**：`5s + 480p` 仅需 `296` 点，不到正式 `8s + 1080p` 成片的 **1/9**；先低成本验证构图与运镜轨迹，满意后再切高清出片。
 
 ---
 
@@ -73,7 +73,7 @@ description: "4 个在 ChatHub 视频生成器中真实出片的完整案例—�
 
 <Frame caption="实测成片：MiniMax H3 · 图生视频（仅首帧） · 跟随输入图片 · 6s · 2k（含舒缓雨声与街巷环境音）。">
   <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case2-poster.jpg" className="w-full rounded-xl">
-    <source src="/videos/video-generation/case2-ramen-alley.mp4" type="video/mp4" />
+    <source src="/videos/video-generation/case2-ramen-alley-hd.mp4" type="video/mp4" />
   </video>
 </Frame>
 
@@ -106,37 +106,37 @@ description: "4 个在 ChatHub 视频生成器中真实出片的完整案例—�
 
 ## 案例 3：同一机位昼夜光影无缝延时（图生视频 · 首帧 + 尾帧）
 
-固定机位并同时上传**首帧**与**尾帧**，精准控制视频的开场与收尾状态，实现丝滑的一镜到底昼夜延时摄影。
+固定机位并同时上传**首帧**与**尾帧**，精准控制视频的开场与收尾状态，以原生 `2k` 实现丝滑的一镜到底昼夜延时摄影。
 
 ### 输入素材（首帧 → 尾帧）
 
 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-  <Frame caption="首帧：清晨阳光（07:14，台灯关闭）。">
-    ![清晨书桌首帧](/images/video-generation/examples/case3-desk-morning.jpg)
+  <Frame caption="首帧：清晨阳光洒满书桌，黄铜台灯关闭。">
+    ![清晨书桌首帧](/images/video-generation/examples/case3-desk-morning-v2.jpg)
   </Frame>
 
-  <Frame caption="尾帧：璀璨星空夜景（22:30，黄铜台灯亮起）。">
-    ![深夜星空书桌尾帧](/images/video-generation/examples/case3-desk-night.jpg)
+  <Frame caption="尾帧：深夜银河星空，黄铜台灯亮起温暖光晕。">
+    ![深夜星空书桌尾帧](/images/video-generation/examples/case3-desk-night-v2.jpg)
   </Frame>
 </div>
 
 ### 实测成片
 
-<Frame caption="实测成片：Seedance 2.5 · 图生视频（首帧 + 尾帧） · 跟随输入图片 · 10s · 1080p。">
-  <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case3-poster.jpg" className="w-full rounded-xl">
-    <source src="/videos/video-generation/case3-desk-timelapse.mp4" type="video/mp4" />
+<Frame caption="实测成片：MiniMax H3 · 图生视频（首帧 + 尾帧） · 跟随输入图片 · 10s · 2k。">
+  <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case3-desk-poster-v2.jpg" className="w-full rounded-xl">
+    <source src="/videos/video-generation/case3-desk-timelapse-v2.mp4" type="video/mp4" />
   </video>
 </Frame>
 
 ### 可直接复制的提示词
 
 ```text
-固定三脚架完全静止机位，记录从清晨到深夜的丝滑连续延时变化。拱形窗外，晨间薄云快速掠过天空，金色晨光在墙面与橡木桌面上缓缓移动，随后在海崖上空过渡为短暂的琥珀色日落晚霞，天色渐暗并浮现璀璨银河星空与海面月光。随着室内暮色降临，左侧翻页时钟顺畅翻动走时，黄铜台灯柔和亮起，将温暖的金色光晕洒在摊开的速写本、钢笔与冒着热气的咖啡杯上。同步环境音效：远处柔和起伏的海浪声、轻柔微风、清脆的机械翻页时钟声，以及台灯亮起时的轻柔开关声。
+固定三脚架完全静止机位，记录从清晨到深夜的丝滑连续延时变化。拱形窗外，晨间薄云快速掠过天空，清透的金色晨光在抹灰墙面与橡木桌面上缓缓移动，随后在海崖上空过渡为绚丽的琥珀色日落晚霞，天色渐暗进入深蓝暮色，最终浮现璀璨银河星空与银色海面月光。随着室内暮色降临，黄铜台灯柔和亮起，将温暖的金色光晕洒在冒着热气的陶瓷咖啡杯、摊开的速写本、黄铜钢笔、尤加利花瓶与叠放的亚麻精装书上。同步环境音效：远处柔和起伏的海浪声、轻柔的海风，以及台灯亮起时的轻柔开关声。
 ```
 
 <Accordion title="查看本案例成片实际提交所用的英文提示词">
   ```text
-  Completely locked static tripod camera capturing a smooth, continuous day-to-night time-lapse from morning to late night. Outside the arched window, soft morning clouds drift swiftly across the sky as golden sunlight arcs across the plaster wall and oak desk, warming into a brief amber sunset glow over the ocean cliffs before fading into deep twilight and revealing a sparkling starry night sky with moonlight over the sea. As dusk settles indoors, the flip clock clicks forward across the hours and the brushed-brass desk lamp gently switches on, bathing the open sketchbook, pen, and steaming mug in a warm golden glow. Synchronized ambient soundscape: distant ocean waves gently swelling and fading, subtle soft breeze, crisp mechanical clock flip ticks, and a quiet click as the desk lamp turns on.
+  Completely locked static tripod camera capturing a smooth, continuous day-to-night time-lapse from early morning to late night. Outside the arched window, soft morning clouds drift swiftly across the sky as crisp golden morning sunbeams arc slowly across the plaster wall and oak desk, warming into a vivid amber sunset glowing over the ocean cliffs before fading into deep blue twilight and revealing a sparkling starry Milky Way night sky with silver moonlight shimmering on the dark ocean. As evening dusk settles indoors, the brushed-brass architectural desk lamp gently switches on, casting a warm golden pool of light over the steaming ceramic coffee mug, open hardcover sketchbook, brass fountain pen, eucalyptus vase, and stacked linen books. Synchronized ambient soundscape: gentle distant ocean waves swelling and receding, soft coastal evening breeze, and a subtle warm click as the desk lamp turns on.
   ```
 </Accordion>
 
@@ -144,14 +144,14 @@ description: "4 个在 ChatHub 视频生成器中真实出片的完整案例—�
 
 | 阶段 | 模式 | 模型 | 画幅比例 | 时长 | 分辨率 | 实测预估点数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **低成本试稿** | 图生视频（首尾帧） | `Seedance 2.5` | 跟随输入图片 | `5s` | `480p` | `309` |
-| **正式出片** | 图生视频（首尾帧） | `Seedance 2.5` | 跟随输入图片 | `10s` | `1080p` | `3,434` |
+| **试稿验证** | 图生视频（首尾帧） | `MiniMax H3` | 跟随输入图片 | `10s` | `768p` | `460` |
+| **2K 正式成片** | 图生视频（首尾帧） | `MiniMax H3` | 跟随输入图片 | `10s` | `2k` | `748` |
 
 ### 效果拆解与实战技巧
 
-- **首尾帧构图必须严格对齐**：窗框、桌沿、速写本、咖啡杯、台灯、花瓶和翻页时钟的位置在两张图里保持完全一致，模型就能把全部运动预算用在天光流转与亮灯变化上，不会出现物体漂移变形。
-- **写出「中间过渡阶段」**：首尾两张原图里其实都没有日落画面，但提示词里写了「过渡为短暂的琥珀色日落晚霞，再渐暗进入暮色与星空」，模型就会自然补全中间的黄昏落日弧线。
-- **跨度大时要给足时长**：像这种跨越十几个小时的光影演变，建议把时长设在 **`8–10 秒`**；如果只给 `4–5 秒`，过渡会显得过于急促。
+- **首尾帧构图必须严格对齐**：窗框、桌沿、精装书、速写本、咖啡杯、台灯和花瓶的位置在两张图里保持完全一致，模型就能把全部运动预算用在天光流转与亮灯变化上，不会出现物体漂移变形。
+- **延时画面尽量避免放时钟或可读数字**：完全依靠自然天光弧线（晨光 → 晚霞 → 蓝调暮色 → 银河星空 + 台灯亮起）就能直观传递时间流逝，避免时钟数字在压缩延时中停滞或跳变穿帮。
+- **写出中间过渡并给足时长**：首尾原图里都没有日落，在提示词里补上「过渡为琥珀色日落晚霞再渐暗进入深蓝暮色」并给足 **`10 秒`**，模型就会自然补全完整的黄昏落日与亮灯过程。
 
 ---
 
@@ -181,7 +181,7 @@ description: "4 个在 ChatHub 视频生成器中真实出片的完整案例—�
 
 <Frame caption="实测成片：Seedance 2.0 · 参考生视频（3 张图） · 16:9 · 8s · 1080p。">
   <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case4-poster.jpg" className="w-full rounded-xl">
-    <source src="/videos/video-generation/case4-robot-forest.mp4" type="video/mp4" />
+    <source src="/videos/video-generation/case4-robot-forest-hd.mp4" type="video/mp4" />
   </video>
 </Frame>
 
@@ -222,7 +222,7 @@ description: "4 个在 ChatHub 视频生成器中真实出片的完整案例—�
 
 <CardGroup cols={2}>
   <Card title="打开视频生成器" icon="video" href="https://app.chathub.gg/video-generator">
-    复制上方任意提示词，先用 5 秒低成本试稿体验出片效果。
+    复制上方任意提示词，先用低成本试稿体验出片效果。
   </Card>
 
   <Card title="模型与提示词技巧" icon="sparkles" href="/cn/video-generation/models-and-prompts">

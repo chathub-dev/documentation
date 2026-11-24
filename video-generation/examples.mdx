@@ -1,6 +1,6 @@
 ---
 title: "Examples & Showcase"
-description: "Four complete AI video generation walkthroughs created directly in ChatHub — with playable outputs, downloadable input assets, prompts, and credit-saving workflows."
+description: "Four complete AI video generation walkthroughs created directly in ChatHub — with full HD playable outputs, downloadable input assets, prompts, and credit-saving workflows."
 ---
 
 Every video on this page was generated directly inside the [ChatHub Video Generator](https://app.chathub.gg/video-generator) with synchronized audio enabled. Turn your sound on when playing each clip to hear the generated sound effects and ambience.
@@ -9,9 +9,9 @@ Every video on this page was generated directly inside the [ChatHub Video Genera
 
 | # | Case | Mode | Model | Format | Draft → Final Credits\* |
 | :-: | --- | --- | --- | --- | --- |
-| **1** | **Sparkling Citrus Soda Commercial** | Text to video | `Seedance 2.5` | `9:16` · `8s` · `1080p` | `296` → `2,729` |
+| **1** | **Swiss Alps Red Train Aerial** | Text to video | `Seedance 2.5` | `9:16` · `8s` · `1080p` | `296` → `2,729` |
 | **2** | **Rainy Neon Ramen Alley** | Image to video _(First frame)_ | `MiniMax H3` | Follows image · `6s` · `2k` | `276` → `449` |
-| **3** | **Morning-to-Starry-Night Timelapse** | Image to video _(First + Last)_ | `Seedance 2.5` | Follows image · `10s` · `1080p` | `309` → `3,434` |
+| **3** | **Morning-to-Starry-Night Timelapse** | Image to video _(First + Last)_ | `MiniMax H3` | Follows image · `10s` · `2k` | `460` → `748` |
 | **4** | **Enchanted Forest Robot Mini-Film** | Reference to video _(3 images)_ | `Seedance 2.0` | `16:9` · `8s` · `1080p` | `202` → `1,796` |
 
 <Note>
@@ -20,14 +20,14 @@ Every video on this page was generated directly inside the [ChatHub Video Genera
 
 ---
 
-## 1. Sparkling Citrus Soda Commercial (Text to Video)
+## 1. Swiss Alps Red Train Aerial (Text to Video)
 
-Create a vertical social-ad macro shot purely from text — no product photography or input assets needed.
+Create photorealistic documentary drone footage purely from text — featuring a classic Swiss red mountain train gliding across a towering stone arch viaduct with drifting morning mist, sweeping aerial camera motion, and authentic outdoor sound.
 
-<Frame caption="Final output: Seedance 2.5 · Text to video · 9:16 · 8s · 1080p (with synchronized ice, pour, and fizz audio).">
+<Frame caption="Final output: Seedance 2.5 · Text to video · 9:16 · 8s · 1080p (with synchronized train rail clatter, alpine wind, and glacial river ambience).">
   <div className="mx-auto max-w-[320px]">
-  <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case1-poster.jpg" className="w-full rounded-xl">
-    <source src="/videos/video-generation/case1-citrus-soda.mp4" type="video/mp4" />
+  <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case1-alpine-poster.jpg" className="w-full rounded-xl">
+    <source src="/videos/video-generation/case1-alpine-train.mp4" type="video/mp4" />
   </video>
 </div>
 </Frame>
@@ -35,21 +35,21 @@ Create a vertical social-ad macro shot purely from text — no product photograp
 ### Prompt
 
 ```text
-Ultra-crisp commercial studio macro shot on a matte dark slate tabletop. In the first half, crystal-clear ice cubes and a fresh blood-orange slice drop in slow motion into a tall minimalist frosted glass as chilled golden sparkling citrus soda pours from above, sending thousands of lively effervescent bubbles rushing upward with crisp condensation droplets forming on the glass. In the second half, the camera glides smoothly back and slightly orbits to reveal the whole glowing glass backlit by a warm amber rim light against a clean moody backdrop. Synchronized high-definition Foley audio: crisp clinking ice cubes, refreshing liquid pour, and bright fizzy carbonation sizzle.
+Authentic documentary aerial cinema footage captured on a real cinema drone at sunrise in the Swiss Alps. A classic bright-red mountain railway train glides smoothly and steadily across a towering weathered gray stone arch viaduct spanning a deep misty alpine gorge. Wisps of translucent golden morning fog drift slowly through dark snow-dusted pine trees along the steep rocky canyon walls, while crisp early sunrise light illuminates rugged snow-covered mountain peaks rising high into a pale blue sky in the background. Natural real-world color grading, subtle atmospheric haze, realistic lighting and shadows, zero CGI sheen. The camera performs a smooth, steady aerial pull-back and gentle ascent, revealing the breathtaking vertical scale of the stone bridge and valley below. Synchronized natural outdoor audio: authentic rhythmic clatter of train wheels rolling over steel rails, soft echoing alpine wind, and the distant rush of a glacial river deep in the gorge.
 ```
 
 ### Settings (Draft vs. Final)
 
 | Stage | Mode | Model | Aspect ratio | Duration | Resolution | Estimated credits |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Draft** _(test pacing & motion)_ | Text to video | `Seedance 2.5` | `9:16` | `5s` | `480p` | `296` |
-| **Final** _(export quality)_ | Text to video | `Seedance 2.5` | `9:16` | `8s` | `1080p` | `2,729` |
+| **Draft** _(test framing & camera arc)_ | Text to video | `Seedance 2.5` | `9:16` | `5s` | `480p` | `296` |
+| **Final** _(full HD export)_ | Text to video | `Seedance 2.5` | `9:16` | `8s` | `1080p` | `2,729` |
 
 ### Why This Works
 
-- **Two-beat timing:** Splitting the action into _"In the first half…"_ (macro pour and rising bubbles) and _"In the second half…"_ (smooth pull-back hero reveal) gives the clip a clear commercial rhythm instead of a single repetitive motion.
-- **Explicit Foley sound cues:** Naming the exact sounds (`clinking ice cubes`, `liquid pour`, `fizzy carbonation sizzle`) dramatically improves the generated audio track.
-- **Draft at `480p` first:** Testing at `5s` + `480p` costs roughly **1/9th** of the final `8s` + `1080p` render — iterate on framing and pacing before paying for full HD.
+- **Documentary camera cues eliminate the "CGI look":** Asking for _"authentic documentary aerial cinema footage"_, _"natural real-world color grading"_, and _"subtle atmospheric haze"_ produces realistic dynamic range and crisp masonry/foliage texture instead of oversaturated AI gloss.
+- **One clean, continuous camera move:** A steady aerial pull-back and gentle ascent naturally showcases `9:16` vertical depth — moving from the red train and stone piers up to the snow-covered peaks.
+- **Draft at `480p` before rendering `1080p`:** Iterating at `5s` + `480p` costs `296` credits (roughly **1/9th** of `8s` + `1080p`), letting you dial in camera framing and pacing cheaply first.
 
 ---
 
@@ -67,7 +67,7 @@ Bring a static illustration or concept art piece to life in crisp `2k` resolutio
 
 <Frame caption="Final output: MiniMax H3 · Image to video · Follows input image · 6s · 2k (with steady rain and alley ambience).">
   <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case2-poster.jpg" className="w-full rounded-xl">
-    <source src="/videos/video-generation/case2-ramen-alley.mp4" type="video/mp4" />
+    <source src="/videos/video-generation/case2-ramen-alley-hd.mp4" type="video/mp4" />
   </video>
 </Frame>
 
@@ -94,46 +94,46 @@ Gentle atmospheric animation of the rainy night alley. Fine raindrops fall stead
 
 ## 3. Morning-to-Starry-Night Timelapse (Image to Video · First + Last Frame)
 
-Lock the camera position and supply both a **First frame** and a **Last frame** to direct a seamless full-day lighting transition.
+Lock the camera position and supply both a **First frame** and a **Last frame** to direct a seamless full-day lighting transition in native `2k`.
 
 ### Input Assets (First Frame → Last Frame)
 
 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-  <Frame caption="First frame: Morning sunlight (07:14, desk lamp off).">
-    ![Morning desk first frame](/images/video-generation/examples/case3-desk-morning.jpg)
+  <Frame caption="First frame: Crisp morning sunlight with desk lamp off.">
+    ![Morning desk first frame](/images/video-generation/examples/case3-desk-morning-v2.jpg)
   </Frame>
 
-  <Frame caption="Last frame: Starry night (22:30, brass desk lamp on).">
-    ![Starry night desk last frame](/images/video-generation/examples/case3-desk-night.jpg)
+  <Frame caption="Last frame: Starry Milky Way night with brushed-brass desk lamp on.">
+    ![Starry night desk last frame](/images/video-generation/examples/case3-desk-night-v2.jpg)
   </Frame>
 </div>
 
 ### Output Video
 
-<Frame caption="Final output: Seedance 2.5 · Image to video (First + Last frame) · Follows input image · 10s · 1080p.">
-  <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case3-poster.jpg" className="w-full rounded-xl">
-    <source src="/videos/video-generation/case3-desk-timelapse.mp4" type="video/mp4" />
+<Frame caption="Final output: MiniMax H3 · Image to video (First + Last frame) · Follows input image · 10s · 2k.">
+  <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case3-desk-poster-v2.jpg" className="w-full rounded-xl">
+    <source src="/videos/video-generation/case3-desk-timelapse-v2.mp4" type="video/mp4" />
   </video>
 </Frame>
 
 ### Prompt
 
 ```text
-Completely locked static tripod camera capturing a smooth, continuous day-to-night time-lapse from morning to late night. Outside the arched window, soft morning clouds drift swiftly across the sky as golden sunlight arcs across the plaster wall and oak desk, warming into a brief amber sunset glow over the ocean cliffs before fading into deep twilight and revealing a sparkling starry night sky with moonlight over the sea. As dusk settles indoors, the flip clock clicks forward across the hours and the brushed-brass desk lamp gently switches on, bathing the open sketchbook, pen, and steaming mug in a warm golden glow. Synchronized ambient soundscape: distant ocean waves gently swelling and fading, subtle soft breeze, crisp mechanical clock flip ticks, and a quiet click as the desk lamp turns on.
+Completely locked static tripod camera capturing a smooth, continuous day-to-night time-lapse from early morning to late night. Outside the arched window, soft morning clouds drift swiftly across the sky as crisp golden morning sunbeams arc slowly across the plaster wall and oak desk, warming into a vivid amber sunset glowing over the ocean cliffs before fading into deep blue twilight and revealing a sparkling starry Milky Way night sky with silver moonlight shimmering on the dark ocean. As evening dusk settles indoors, the brushed-brass architectural desk lamp gently switches on, casting a warm golden pool of light over the steaming ceramic coffee mug, open hardcover sketchbook, brass fountain pen, eucalyptus vase, and stacked linen books. Synchronized ambient soundscape: gentle distant ocean waves swelling and receding, soft coastal evening breeze, and a subtle warm click as the desk lamp turns on.
 ```
 
 ### Settings (Draft vs. Final)
 
 | Stage | Mode | Model | Aspect ratio | Duration | Resolution | Estimated credits |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Draft** | Image to video _(First + Last)_ | `Seedance 2.5` | Follows input image | `5s` | `480p` | `309` |
-| **Final** | Image to video _(First + Last)_ | `Seedance 2.5` | Follows input image | `10s` | `1080p` | `3,434` |
+| **Draft** | Image to video _(First + Last)_ | `MiniMax H3` | Follows input image | `10s` | `768p` | `460` |
+| **Final** | Image to video _(First + Last)_ | `MiniMax H3` | Follows input image | `10s` | `2k` | `748` |
 
 ### Why This Works
 
-- **Pixel-locked framing across both frames:** Keeping every object (window mullions, desk, sketchbook, mug, lamp, vase, flip clock) in the exact same position prevents awkward morphing and lets the model devote all its motion to lighting, sky, and time.
-- **Describe the middle stages:** Neither input image shows sunset — explicitly mentioning _"warming into a brief amber sunset glow… before fading into deep twilight"_ guides the model to generate a believable intermediate sunset arc.
-- **Give big transitions enough time:** Spanning 15 hours of daylight change works best at **`8–10s`**; trying to squeeze it into `4–5s` often feels rushed or abrupt.
+- **Pixel-locked framing across both frames:** Keeping every object (window mullions, desk, linen books, sketchbook, mug, lamp, vase) in the exact same position prevents awkward morphing and lets the model devote all its motion to sky, shadows, and lamp lighting.
+- **Avoid clocks or small readable digits in time-lapses:** Natural light arcs (morning sunbeams → amber sunset → blue twilight → starry night + desk lamp turning on) read effortlessly, whereas digital or flip clocks often display frozen or illogical time jumps across compressed shots.
+- **Describe the middle stages and give enough duration:** Neither input frame shows sunset — explicitly describing _"a vivid amber sunset glowing over the ocean cliffs before fading into deep blue twilight"_ over **`10s`** produces a smooth, believable progression.
 
 ---
 
@@ -163,7 +163,7 @@ Upload these three images in exact order (`Image 1`, `Image 2`, `Image 3`) in **
 
 <Frame caption="Final output: Seedance 2.0 · Reference to video (3 images) · 16:9 · 8s · 1080p.">
   <video controls playsInline preload="metadata" poster="/images/video-generation/examples/case4-poster.jpg" className="w-full rounded-xl">
-    <source src="/videos/video-generation/case4-robot-forest.mp4" type="video/mp4" />
+    <source src="/videos/video-generation/case4-robot-forest-hd.mp4" type="video/mp4" />
   </video>
 </Frame>
 
@@ -198,7 +198,7 @@ Cinematic 3D animated film shot. [Image 1] carefully holds [Image 2] by its wire
 
 <CardGroup cols={2}>
   <Card title="Open Video Generator" icon="video" href="https://app.chathub.gg/video-generator">
-    Copy any prompt above and try a low-cost 5s draft directly in ChatHub.
+    Copy any prompt above and try a low-cost draft directly in ChatHub.
   </Card>
 
   <Card title={"Models & Prompting Tips"} icon="sparkles" href="/video-generation/models-and-prompts">
