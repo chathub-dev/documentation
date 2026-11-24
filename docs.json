@@ -193,7 +193,8 @@
               {
                 "group": "ChatHub AI Service",
                 "pages": [
-                  "cloud/index"
+                  "cloud/index",
+                  "cloud/purchased-credits"
                 ]
               },
               {
@@ -308,7 +309,8 @@
               {
                 "group": "ChatHub AI Service",
                 "pages": [
-                  "cloud/index"
+                  "cloud/index",
+                  "cloud/purchased-credits"
                 ]
               },
               {
@@ -423,7 +425,8 @@
               {
                 "group": "ChatHub AI Service",
                 "pages": [
-                  "cloud/index"
+                  "cloud/index",
+                  "cloud/purchased-credits"
                 ]
               },
               {
@@ -538,7 +541,8 @@
               {
                 "group": "ChatHub AI Service",
                 "pages": [
-                  "cloud/index"
+                  "cloud/index",
+                  "cloud/purchased-credits"
                 ]
               },
               {
@@ -653,7 +657,8 @@
               {
                 "group": "ChatHub AI 服务",
                 "pages": [
-                  "cn/cloud/index"
+                  "cn/cloud/index",
+                  "cn/cloud/purchased-credits"
                 ]
               },
               {
